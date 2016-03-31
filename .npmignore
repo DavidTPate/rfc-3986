@@ -1,2 +1,8 @@
 test
 coverage
+.eslintignore
+.eslintrc
+.gitignore
+.jscsrc
+.jsinspectrc
+.travis.yml
