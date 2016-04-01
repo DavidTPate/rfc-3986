@@ -22,4 +22,10 @@ describe('RFC-3986', function () {
             assert.ok(rfc3986[prop]);
         });
     });
+
+    it('should be a valid regex', function () {
+        var regex = new RegExp(rfc3986.uri);
+        assert.equal(regex.test('http://example.com'), true, 'a URI should be a valid URI');
+        assert.equal(regex.test('(╯°□°)╯︵ ┻━┻'), false, 'flipping tables aren\'t valid URIs!');
+    });
 });
