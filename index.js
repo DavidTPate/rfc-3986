@@ -181,10 +181,6 @@ internals.generate = function () {
 
     /**
      * URI = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
-     *
-     * OR
-     *
-     * relative-ref = relative-part [ "?" query ] [ "#" fragment ]
      */
     internals.rfc3986.uri = '^(?:' + internals.rfc3986.scheme + ':' + internals.rfc3986.hierPart + ')(?:\\?' + internals.rfc3986.query + ')?' + '(?:#' + internals.rfc3986.fragment + ')?$';
 };
