@@ -13,7 +13,7 @@
     "url"
   ],
   "author": "David Pate <davidtpate@gmail.com>",
-  "contributors":[],
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DavidTPate/rfc-3986/issues"
@@ -27,7 +27,7 @@
     "node": ">= 0.6"
   },
   "devDependencies": {
-    "eslint": "2.5.3",
+    "eslint": "2.6.0",
     "istanbul": "0.4.2",
     "jscs": "2.11.0",
     "jsinspect": "0.8.0",
