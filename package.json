@@ -29,7 +29,7 @@
   "devDependencies": {
     "eslint": "2.8.0",
     "istanbul": "0.4.3",
-    "jscs": "3.0.2",
+    "jscs": "3.0.3",
     "jsinspect": "0.8.0",
     "mocha": "2.4.5"
   },
